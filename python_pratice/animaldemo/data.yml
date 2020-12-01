@@ -1,0 +1,28 @@
+animal_11: &cat1
+ name: 'mimi'
+ colour: 'yellow'
+ age: 1
+ sex: '母'
+
+animal_12: &cat2
+ name: '加菲猫'
+ colour: 'yellow'
+ age: 2
+ sex: '男'
+
+animal_21: &dog1
+ name: '金毛'
+ colour: '黄'
+ age: 3
+ sex: '男'
+
+animal_22: &dog2
+ name: '旺财'
+ colour: '白'
+ age: 4
+ sex: '男'
+
+default:
+ default_cat: *cat1
+ default_dog: *dog2
+
